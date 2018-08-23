@@ -1,0 +1,28 @@
+{
+  "name": "ts-gb-terminal",
+  "version": "1.0.0",
+  "description": "In-terminal TypeScript Game Boy emulator",
+  "repository": "https://github.com/Lyrkan/ts-gb-terminal/",
+  "author": "Vincent Le Biannic",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "lint": "tslint './src/**/*.ts'",
+    "nsp": "nsp check",
+    "precommit": "yarn run lint",
+    "prepush": "yarn run nsp && yarn run lint"
+  },
+  "dependencies": {
+    "@types/node": "^10.9.0",
+    "chalk": "^2.4.1",
+    "keypress": "^0.2.1",
+    "ts-gb": "^0.9.7",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "nsp": "^3.2.1",
+    "tslint": "^5.11.0"
+  }
+}
