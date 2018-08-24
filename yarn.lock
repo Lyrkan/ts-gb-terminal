@@ -816,9 +816,9 @@ tmp@^0.0.33:
   dependencies:
     os-tmpdir "~1.0.2"
 
-ts-gb@^0.9.7:
-  version "0.9.7"
-  resolved "https://registry.yarnpkg.com/ts-gb/-/ts-gb-0.9.7.tgz#b13d91418a531a52f3ddeac87c2e1b744a93c7f5"
+ts-gb@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/ts-gb/-/ts-gb-0.9.8.tgz#0b0e6b57deb122df7f08731eea7f0aaaa0ef7111"
 
 ts-node@^7.0.1:
   version "7.0.1"
