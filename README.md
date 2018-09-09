@@ -12,4 +12,4 @@ $ yarn
 $ yarn start <rom>
 ```
 
-![TS-GB Terminal](assets/ts-gb-terminal.png)
+![TS-GB Terminal](assets/ts-gb-terminal.gif)
